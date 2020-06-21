@@ -1,0 +1,73 @@
+* {
+  	box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+ 	 font-family: Arial;
+  	margin: 0 25% 0 25%;
+  	background-color: #343D46;
+}
+
+/* Header/logo Title */
+.header {
+  	padding: 60px;
+  	text-align: center;
+  	background: #05ADAD;
+  	color: white;
+}
+
+.navwrap > div.logo {
+	background-color: #1F252A;
+	float: left;
+	
+	margin-right: 0;
+	padding: 1px;
+}
+
+.navwrap > div.navbar {
+
+}
+
+/* Style the top navigation bar */
+.navbar {
+  	display: flex;
+  	background-color: #1F252A;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  	color: white;
+  	padding: 20px 20px;
+  	text-decoration: none;
+  	text-align: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  	background-color: #05ADAD;
+  	color: black;
+}
+
+ul.described {
+	background-color: #05ADAD;
+	padding-top: 2px;
+	padding-bottom: 3px;
+}
+
+.list li{
+	list-style-type: none;
+}
+
+button {
+	margin-right: 1px;
+	margin-bottom: 2px;
+}
+
+button a {
+	text-decoration: none;
+}
+
+.described {
+	background-color: #05ADAD;
+}
